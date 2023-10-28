@@ -77,8 +77,8 @@ export default function Card() {
                 </div>
                 <div className="left">
                     <picture>
-                        <source srcSet={mobileIllustration} media="(max-width: 1000px)" />
-                        <img src={desktopIllustration} alt="illustration" />
+                        <source  srcSet={mobileIllustration} media="(max-width: 1000px)" />
+                        <img className="mobile-illustration" src={desktopIllustration} alt="illustration" />
                     </picture>
                 </div>
             </div>
